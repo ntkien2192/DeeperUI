@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D3FC9970AE8BD6DA9ED1260DC689EE2 /* Pods-DeeperUI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1926416EF5557B18AE68A5BE14F13896 /* Pods-DeeperUI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46DD811F968CF2534417327E51271B88 /* Pods-DeeperUI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8ACB742CF3AB29BAE3410763F6681E7 /* Pods-DeeperUI_Example-dummy.m */; };
+		4A7096A03473D82E2697150A2E8C1198 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2C41F4E4F9F92A68042087E199160A /* ReplaceMe.swift */; };
+		5706A8826C30797324205E68B9D12194 /* Pods-DeeperUI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 629084068A7D5825B67BCB2F05CAA2F1 /* Pods-DeeperUI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88BF1593E0B74CEAA4B779BA86C6AD8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A1FFBB3202823F272251D4289AFF6358 /* DeeperUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BF18905D436CCCAAF141174D4D73AB8 /* DeeperUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E24210214DA488B0ABC5BBB62FAA8343 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E36293376EE21FA0DB96C98FBB70FEFA /* Pods-DeeperUI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E6FCDA5EBF315F4556F9BAB4470EF3 /* Pods-DeeperUI_Tests-dummy.m */; };
+		EFDBCF6C441A0B3127941A8F671B3022 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F4F581F5DE9732A0AF8DD853B4E4A26D /* DeeperUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9EC363B59784C761F6A9E6114207DE /* DeeperUI-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62737E8E74166F73782FB4D712042543 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0058130B3E210290DA3CF31E9A734B02;
+			remoteInfo = DeeperUI;
+		};
+		72CE178DA2A6EF4CF3C4DB23832DE2EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85D421892A588B04EC932CA92231A91C;
+			remoteInfo = "Pods-DeeperUI_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E28D400178A28384B7959DB7B96884 /* Pods-DeeperUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeeperUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0184CA373E8546090FC26A7B001FFD36 /* Pods-DeeperUI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DeeperUI_Example.modulemap"; sourceTree = "<group>"; };
+		060D3D9BE63318A1C2E19A8251E3589D /* Pods-DeeperUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeeperUI_Example.release.xcconfig"; sourceTree = "<group>"; };
+		10C0BA16CAECABD8301E88DCC982AB74 /* Pods_DeeperUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeeperUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		161F149057CF5F999399772A70D2E9BF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1926416EF5557B18AE68A5BE14F13896 /* Pods-DeeperUI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DeeperUI_Example-umbrella.h"; sourceTree = "<group>"; };
+		29FC9352FE2F499B6FBB1AD4E29DB60D /* DeeperUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DeeperUI-Info.plist"; sourceTree = "<group>"; };
+		2B86BA424ECAB49E5F938D10E8CF9F04 /* DeeperUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeeperUI-prefix.pch"; sourceTree = "<group>"; };
+		3CBB0B229EFD312C9C418B20805F3008 /* Pods-DeeperUI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DeeperUI_Tests.modulemap"; sourceTree = "<group>"; };
+		40EBB5E4E27B1BE51C5DB54D452BB9B8 /* DeeperUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DeeperUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5B49DC198AE2DFE469AABD1F1177BCBA /* Pods-DeeperUI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DeeperUI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5C4AF68DB33E5314E0EE8E52685C41B9 /* Pods-DeeperUI_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DeeperUI_Example-Info.plist"; sourceTree = "<group>"; };
+		629084068A7D5825B67BCB2F05CAA2F1 /* Pods-DeeperUI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DeeperUI_Tests-umbrella.h"; sourceTree = "<group>"; };
+		62D130750BA1375A4E3483F4925E6E73 /* Pods-DeeperUI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DeeperUI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		684A38A08D69D311236F87B3E19B29F4 /* Pods-DeeperUI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DeeperUI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		69D3EA95D6992AAA6887950B0C40D45A /* Pods-DeeperUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeeperUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7BF18905D436CCCAAF141174D4D73AB8 /* DeeperUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeeperUI-umbrella.h"; sourceTree = "<group>"; };
+		7D2C41F4E4F9F92A68042087E199160A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = DeeperUI/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		892A8115F7FCA1F8FE2EF96E5463C05D /* Pods-DeeperUI_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DeeperUI_Tests-Info.plist"; sourceTree = "<group>"; };
+		8A55A90129DFDC06A742D712A2636D44 /* DeeperUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DeeperUI.debug.xcconfig; sourceTree = "<group>"; };
+		94DFF49B0394A4B6107421340D96BE3E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		96735D2211C46F619AE1A3E8148E0B5C /* DeeperUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DeeperUI.modulemap; sourceTree = "<group>"; };
+		979494D03CE98469ADC3C9A1FC6AB928 /* DeeperUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DeeperUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E8C2C182A7C569698A6B50C48ECBD4D /* Pods-DeeperUI_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DeeperUI_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C35996D096D371CC1DA390B532F9E8C1 /* Pods-DeeperUI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DeeperUI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C8ACB742CF3AB29BAE3410763F6681E7 /* Pods-DeeperUI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DeeperUI_Example-dummy.m"; sourceTree = "<group>"; };
+		C9E6FCDA5EBF315F4556F9BAB4470EF3 /* Pods-DeeperUI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DeeperUI_Tests-dummy.m"; sourceTree = "<group>"; };
+		D21381D8BF2140DAFD943B72A7E25BE6 /* DeeperUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DeeperUI.release.xcconfig; sourceTree = "<group>"; };
+		D6A0197A1EBDF3DA542FF9564EEC99B0 /* Pods-DeeperUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeeperUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DA07361907C9ACF76D71A6725E069576 /* Pods_DeeperUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeeperUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE9EC363B59784C761F6A9E6114207DE /* DeeperUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DeeperUI-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EF58FB857A4B70554FDF030EB71968E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E24210214DA488B0ABC5BBB62FAA8343 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		725B8DEE0FB645AAD8379BD8CCFE3C81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88BF1593E0B74CEAA4B779BA86C6AD8F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2BA12699BF5ABA2E130ED8C5A156F98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDBCF6C441A0B3127941A8F671B3022 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		039B1DAD6853F0284477BF580C7EAEBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				979494D03CE98469ADC3C9A1FC6AB928 /* DeeperUI.framework */,
+				DA07361907C9ACF76D71A6725E069576 /* Pods_DeeperUI_Example.framework */,
+				10C0BA16CAECABD8301E88DCC982AB74 /* Pods_DeeperUI_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		351B19E7EF90BEC5851DDE57219F8DDD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				96735D2211C46F619AE1A3E8148E0B5C /* DeeperUI.modulemap */,
+				DE9EC363B59784C761F6A9E6114207DE /* DeeperUI-dummy.m */,
+				29FC9352FE2F499B6FBB1AD4E29DB60D /* DeeperUI-Info.plist */,
+				2B86BA424ECAB49E5F938D10E8CF9F04 /* DeeperUI-prefix.pch */,
+				7BF18905D436CCCAAF141174D4D73AB8 /* DeeperUI-umbrella.h */,
+				8A55A90129DFDC06A742D712A2636D44 /* DeeperUI.debug.xcconfig */,
+				D21381D8BF2140DAFD943B72A7E25BE6 /* DeeperUI.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DeeperUI";
+			sourceTree = "<group>";
+		};
+		3DE9F0595C31CB5596B0E7506EEB159B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				40EBB5E4E27B1BE51C5DB54D452BB9B8 /* DeeperUI.podspec */,
+				94DFF49B0394A4B6107421340D96BE3E /* LICENSE */,
+				161F149057CF5F999399772A70D2E9BF /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3FF679874D66E7F1454E158F0EFD7394 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C012983737422A28DFD550606B4AF10E /* DeeperUI */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5AACC7E7041034134912EC9C6626DEA6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				649D277E1625FC51F5B8116D5073C99E /* Pods-DeeperUI_Example */,
+				627B6A3960C00869F965E35A1DB3CE73 /* Pods-DeeperUI_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		627B6A3960C00869F965E35A1DB3CE73 /* Pods-DeeperUI_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3CBB0B229EFD312C9C418B20805F3008 /* Pods-DeeperUI_Tests.modulemap */,
+				C35996D096D371CC1DA390B532F9E8C1 /* Pods-DeeperUI_Tests-acknowledgements.markdown */,
+				5B49DC198AE2DFE469AABD1F1177BCBA /* Pods-DeeperUI_Tests-acknowledgements.plist */,
+				C9E6FCDA5EBF315F4556F9BAB4470EF3 /* Pods-DeeperUI_Tests-dummy.m */,
+				892A8115F7FCA1F8FE2EF96E5463C05D /* Pods-DeeperUI_Tests-Info.plist */,
+				629084068A7D5825B67BCB2F05CAA2F1 /* Pods-DeeperUI_Tests-umbrella.h */,
+				69D3EA95D6992AAA6887950B0C40D45A /* Pods-DeeperUI_Tests.debug.xcconfig */,
+				00E28D400178A28384B7959DB7B96884 /* Pods-DeeperUI_Tests.release.xcconfig */,
+			);
+			name = "Pods-DeeperUI_Tests";
+			path = "Target Support Files/Pods-DeeperUI_Tests";
+			sourceTree = "<group>";
+		};
+		649D277E1625FC51F5B8116D5073C99E /* Pods-DeeperUI_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0184CA373E8546090FC26A7B001FFD36 /* Pods-DeeperUI_Example.modulemap */,
+				684A38A08D69D311236F87B3E19B29F4 /* Pods-DeeperUI_Example-acknowledgements.markdown */,
+				62D130750BA1375A4E3483F4925E6E73 /* Pods-DeeperUI_Example-acknowledgements.plist */,
+				C8ACB742CF3AB29BAE3410763F6681E7 /* Pods-DeeperUI_Example-dummy.m */,
+				9E8C2C182A7C569698A6B50C48ECBD4D /* Pods-DeeperUI_Example-frameworks.sh */,
+				5C4AF68DB33E5314E0EE8E52685C41B9 /* Pods-DeeperUI_Example-Info.plist */,
+				1926416EF5557B18AE68A5BE14F13896 /* Pods-DeeperUI_Example-umbrella.h */,
+				D6A0197A1EBDF3DA542FF9564EEC99B0 /* Pods-DeeperUI_Example.debug.xcconfig */,
+				060D3D9BE63318A1C2E19A8251E3589D /* Pods-DeeperUI_Example.release.xcconfig */,
+			);
+			name = "Pods-DeeperUI_Example";
+			path = "Target Support Files/Pods-DeeperUI_Example";
+			sourceTree = "<group>";
+		};
+		C012983737422A28DFD550606B4AF10E /* DeeperUI */ = {
+			isa = PBXGroup;
+			children = (
+				7D2C41F4E4F9F92A68042087E199160A /* ReplaceMe.swift */,
+				3DE9F0595C31CB5596B0E7506EEB159B /* Pod */,
+				351B19E7EF90BEC5851DDE57219F8DDD /* Support Files */,
+			);
+			name = DeeperUI;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				3FF679874D66E7F1454E158F0EFD7394 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				039B1DAD6853F0284477BF580C7EAEBA /* Products */,
+				5AACC7E7041034134912EC9C6626DEA6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0C7C9E500B3E31C310571A68C0D9D873 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1FFBB3202823F272251D4289AFF6358 /* DeeperUI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81DF2242CAAEF9F09221E2D9BD59DC0C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5706A8826C30797324205E68B9D12194 /* Pods-DeeperUI_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBBDDA3A3A5556637EC0CB7C838ADAAD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D3FC9970AE8BD6DA9ED1260DC689EE2 /* Pods-DeeperUI_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0058130B3E210290DA3CF31E9A734B02 /* DeeperUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 385ACB2F0438841A5D8509D7B3A4EA1D /* Build configuration list for PBXNativeTarget "DeeperUI" */;
+			buildPhases = (
+				0C7C9E500B3E31C310571A68C0D9D873 /* Headers */,
+				6F2623B37896B8811C9818EDA4D1754E /* Sources */,
+				3EF58FB857A4B70554FDF030EB71968E /* Frameworks */,
+				4C184F2F78668304CFBADC2B0DFD9F0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeeperUI;
+			productName = DeeperUI;
+			productReference = 979494D03CE98469ADC3C9A1FC6AB928 /* DeeperUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6E8DABF7136431C9AC4532EB423971EE /* Pods-DeeperUI_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E435122185C6869D264239015D5C88F4 /* Build configuration list for PBXNativeTarget "Pods-DeeperUI_Tests" */;
+			buildPhases = (
+				81DF2242CAAEF9F09221E2D9BD59DC0C /* Headers */,
+				BA8C1993C5B2FAD81FF7732CAEDD0995 /* Sources */,
+				A2BA12699BF5ABA2E130ED8C5A156F98 /* Frameworks */,
+				EF6529D8337F1B8A5D4FE3D4AE5D9FD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5F6D5D24E0B6D35CC692C22A7B0207A /* PBXTargetDependency */,
+			);
+			name = "Pods-DeeperUI_Tests";
+			productName = "Pods-DeeperUI_Tests";
+			productReference = 10C0BA16CAECABD8301E88DCC982AB74 /* Pods_DeeperUI_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		85D421892A588B04EC932CA92231A91C /* Pods-DeeperUI_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 125E9EE3D74688AE9AADB2D0198C0374 /* Build configuration list for PBXNativeTarget "Pods-DeeperUI_Example" */;
+			buildPhases = (
+				EBBDDA3A3A5556637EC0CB7C838ADAAD /* Headers */,
+				80C20353FDF55A8701FAB72D7079F2E1 /* Sources */,
+				725B8DEE0FB645AAD8379BD8CCFE3C81 /* Frameworks */,
+				CE30802ACDDEB23C2BFA3E0F0604AA01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A33710E3C89961EF33A4D36202BFF754 /* PBXTargetDependency */,
+			);
+			name = "Pods-DeeperUI_Example";
+			productName = "Pods-DeeperUI_Example";
+			productReference = DA07361907C9ACF76D71A6725E069576 /* Pods_DeeperUI_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					0058130B3E210290DA3CF31E9A734B02 = {
+						LastSwiftMigration = 1230;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 039B1DAD6853F0284477BF580C7EAEBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0058130B3E210290DA3CF31E9A734B02 /* DeeperUI */,
+				85D421892A588B04EC932CA92231A91C /* Pods-DeeperUI_Example */,
+				6E8DABF7136431C9AC4532EB423971EE /* Pods-DeeperUI_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C184F2F78668304CFBADC2B0DFD9F0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE30802ACDDEB23C2BFA3E0F0604AA01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6529D8337F1B8A5D4FE3D4AE5D9FD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F2623B37896B8811C9818EDA4D1754E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F581F5DE9732A0AF8DD853B4E4A26D /* DeeperUI-dummy.m in Sources */,
+				4A7096A03473D82E2697150A2E8C1198 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C20353FDF55A8701FAB72D7079F2E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46DD811F968CF2534417327E51271B88 /* Pods-DeeperUI_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA8C1993C5B2FAD81FF7732CAEDD0995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E36293376EE21FA0DB96C98FBB70FEFA /* Pods-DeeperUI_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A33710E3C89961EF33A4D36202BFF754 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DeeperUI;
+			target = 0058130B3E210290DA3CF31E9A734B02 /* DeeperUI */;
+			targetProxy = 62737E8E74166F73782FB4D712042543 /* PBXContainerItemProxy */;
+		};
+		F5F6D5D24E0B6D35CC692C22A7B0207A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DeeperUI_Example";
+			target = 85D421892A588B04EC932CA92231A91C /* Pods-DeeperUI_Example */;
+			targetProxy = 72CE178DA2A6EF4CF3C4DB23832DE2EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3F797479D74384E15C0F984676454EC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00E28D400178A28384B7959DB7B96884 /* Pods-DeeperUI_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DeeperUI_Tests/Pods-DeeperUI_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DeeperUI_Tests/Pods-DeeperUI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7F688AABCDD2C5EBE275CE354B9D3AF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D21381D8BF2140DAFD943B72A7E25BE6 /* DeeperUI.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DeeperUI/DeeperUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DeeperUI/DeeperUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DeeperUI/DeeperUI.modulemap";
+				PRODUCT_MODULE_NAME = DeeperUI;
+				PRODUCT_NAME = DeeperUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		886E3498DE71A1DDA3CD9CF82D98D6C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69D3EA95D6992AAA6887950B0C40D45A /* Pods-DeeperUI_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DeeperUI_Tests/Pods-DeeperUI_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DeeperUI_Tests/Pods-DeeperUI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C9996491AAAE218C34553A8013F396F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6A0197A1EBDF3DA542FF9564EEC99B0 /* Pods-DeeperUI_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DeeperUI_Example/Pods-DeeperUI_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DeeperUI_Example/Pods-DeeperUI_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A0B619B1DF1D2158C5F3B2D422D9738D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 060D3D9BE63318A1C2E19A8251E3589D /* Pods-DeeperUI_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DeeperUI_Example/Pods-DeeperUI_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DeeperUI_Example/Pods-DeeperUI_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FAC4C82138828907CBBCCEAECBEEDCF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A55A90129DFDC06A742D712A2636D44 /* DeeperUI.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DeeperUI/DeeperUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DeeperUI/DeeperUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DeeperUI/DeeperUI.modulemap";
+				PRODUCT_MODULE_NAME = DeeperUI;
+				PRODUCT_NAME = DeeperUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		125E9EE3D74688AE9AADB2D0198C0374 /* Build configuration list for PBXNativeTarget "Pods-DeeperUI_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C9996491AAAE218C34553A8013F396F /* Debug */,
+				A0B619B1DF1D2158C5F3B2D422D9738D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		385ACB2F0438841A5D8509D7B3A4EA1D /* Build configuration list for PBXNativeTarget "DeeperUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC4C82138828907CBBCCEAECBEEDCF1 /* Debug */,
+				7F688AABCDD2C5EBE275CE354B9D3AF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E435122185C6869D264239015D5C88F4 /* Build configuration list for PBXNativeTarget "Pods-DeeperUI_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				886E3498DE71A1DDA3CD9CF82D98D6C7 /* Debug */,
+				3F797479D74384E15C0F984676454EC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

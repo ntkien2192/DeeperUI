@@ -1,0 +1,22 @@
+{
+  "name": "DeeperUI",
+  "version": "0.1.0",
+  "summary": "A short description of DeeperUI.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ntkien2192/DeeperUI",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ntkien2192": "ntkien2192@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ntkien2192/DeeperUI.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "DeeperUI/Classes/**/*"
+}

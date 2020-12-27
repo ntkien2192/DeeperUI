@@ -1,0 +1,16 @@
+PODS:
+  - DeeperUI (0.1.0)
+
+DEPENDENCIES:
+  - DeeperUI (from `../`)
+
+EXTERNAL SOURCES:
+  DeeperUI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DeeperUI: bcdb12469c50715b9f3454df4ce7f7ab570124ef
+
+PODFILE CHECKSUM: a8bfb2697ce44edd3d3b5bd5d3e852c45e4276e7
+
+COCOAPODS: 1.10.0

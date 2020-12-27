@@ -1,0 +1,6 @@
+framework module DeeperUI {
+  umbrella header "DeeperUI-umbrella.h"
+
+  export *
+  module * { export * }
+}
